@@ -3,7 +3,7 @@
 import axios from 'axios'
 
 const clientesApi = axios.create({
-   baseURL: 'http://localhost:8000/c/'
+   baseURL: 'https://prueba-tecnica-servidor.onrender.com/tareas/api/1/tareas/'
 })
 export const getAllTareas = () => {
    return clientesApi.get('/')
